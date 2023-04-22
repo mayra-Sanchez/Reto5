@@ -9,8 +9,8 @@ export default function Video() {
     
     const props = {
         unsuspend: 'canplay',
-        muted: true,
-        loop: true,
+        muted: false,
+        loop: false,
         start: pause
     }
     
